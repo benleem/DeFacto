@@ -14,10 +14,8 @@ public class ThirdPersonCam : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Zang");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        
     }
 
     void Update()
